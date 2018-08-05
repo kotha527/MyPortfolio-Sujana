@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hind:400,700|Raleway');
+body {
+	width: 60%;
+	margin: auto;
+	font-family: Raleway;
+	color: #696969;
+}
+
+header, footer{
+	padding: 80px 0px 80px 0px;
+}
+
+nav ul {
+	float: right;
+	text-transform: uppercase;
+	font-family: Hind;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin: 0;
+	padding-top: 15px;
+}
+
+footer ul {
+	text-transform: uppercase;
+	font-family: Hind;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin: 0;
+	text-align: center;
+}
+
+nav li, footer li {
+	list-style-type: none;
+	display: inline;
+	margin: 24px;
+}
+
+nav a, footer a {
+	text-decoration:none;
+	color: #696969;
+}
+
+nav a:hover, footer a:hover {
+	text-decoration:underline;
+	color: #983a42;
+}
+
+
+
+h1 {
+	display: inline;
+	font-family: Hind;
+	font-weight: 700;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	display: inline;
+	font-family: Hind;
+	font-size: 2em;
+	color: #983a42;
+}
+
+img {
+	clear:left;
+	float:left;
+	max-width: 400px;
+	margin: 0px 80px 80px 0px;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+#intro {
+	height: 400px;
+}
+
+.hobby {
+	display: inline-block;
+	height: 400px;
+	margin: 40px 0px 40px 0px;
+}
+
